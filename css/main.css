@@ -50,8 +50,7 @@ html {
   scrollbar-color: var(--text-color) var(--bg-color);
   text-rendering: optimizeLegibility;
   height: 100%;
-  width: 100%;
-  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 #wrapper,
@@ -68,10 +67,7 @@ body {
   overflow-x: hidden;
   word-spacing: 0.0625em;
   font-variant-caps: all-small-caps;
-  scroll-behavior: smooth;
   scroll-padding-top: 1.5em;
-  height: 100%;
-  overflow-y: scroll;
 }
 
 #wrapper {
@@ -106,7 +102,7 @@ article {
   position: fixed;
   text-align: center;
   top: 0;
-  transform: translateX(calc(-100% + 47px));
+  transform: translateX(calc(-100% + 48px));
   transition: .2s .2s transform;
   z-index: 1;
   border: 1px solid var(--text-color);
@@ -142,9 +138,9 @@ svg {
   background: url(../img/logo.svg) top/contain no-repeat;
   display: inline-block;
   filter: drop-shadow(0 0 10px #fff);
-  height: 47px;
+  height: 48px;
   vertical-align: middle;
-  width: 47px;
+  width: 48px;
   box-shadow: inherit;
 }
 
@@ -408,14 +404,14 @@ input[type=checkbox]::-moz-focus-outer {
   bottom: 0;
   cursor: pointer;
   font-size: 0;
-  height: 47px;
+  height: 48px;
   margin: 0;
   outline: 0;
   position: fixed;
   right: 0;
   text-indent: -99999px;
   user-select: none;
-  width: 47px;
+  width: 48px;
   z-index: 1;
 }
 
@@ -454,14 +450,14 @@ input[type=checkbox]::-moz-focus-outer {
   cursor: pointer;
   display: flex;
   font-size: 0;
-  height: 47px;
+  height: 48px;
   justify-content: center;
   left: 0;
   margin: 0;
   outline: 0;
   position: fixed;
   user-select: none;
-  width: 47px;
+  width: 48px;
   z-index: 2;
 }
 
