@@ -86,6 +86,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   user-select: none;
+  overflow-x: hidden;
 }
 
 .block {
