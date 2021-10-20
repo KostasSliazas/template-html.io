@@ -47,11 +47,11 @@ html {
   -webkit-text-size-adjust: 100%;
   background-attachment: fixed;
   font-variant-ligatures: none;
-  height: 100%;
   scrollbar-color: var(--text-color) var(--bg-color);
   text-rendering: optimizeLegibility;
-  scroll-behavior: smooth;
-  scroll-padding-top: 1.5em;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 #wrapper,
@@ -68,6 +68,10 @@ body {
   overflow-x: hidden;
   word-spacing: 0.0625em;
   font-variant-caps: all-small-caps;
+  scroll-behavior: smooth;
+  scroll-padding-top: 1.5em;
+  height: 100%;
+  overflow-y: scroll;
 }
 
 #wrapper {
