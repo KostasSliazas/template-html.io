@@ -82,7 +82,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   user-select: none;
-  transition: .4s .2s width;
 }
 
 .block {
@@ -354,14 +353,18 @@ h5,
 }
 
 table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
   margin: 0;
   width: 100%;
 }
 
 td,
 th {
-  box-shadow: 0 0 1px #92eff8;
+  box-shadow: 0 0 0 1px var(--text-color);
   padding: 0 4px;
+  background: var(--bg-color);
   padding: 0;
 }
 
