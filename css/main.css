@@ -265,8 +265,7 @@ svg {
   direction: ltr;
   list-style: none;
   margin: 0;
-  padding: 46px 0;
-  border: 1px solid var(--text-color);
+  padding: 47px 0;
 }
 
 .nav ul li {
